@@ -15,18 +15,18 @@ I am learning TypeScript step by step, creating examples, practicing concepts, a
 
 ### 📖 Basic Concepts
 
-* [X] Chapter 1: Introduction to TypeScript
-* [X] Chapter 2: Installing and Running TypeScript
-* [X] Chapter 3: TypeScript Basics
-* [X] Chapter 4: Arrays and Tuples
-* [X] Chapter 5: Functions
-* [X] Chapter 6: Objects
+* [x] Chapter 1: Introduction to TypeScript
+* [x] Chapter 2: Installing and Running TypeScript
+* [x] Chapter 3: TypeScript Basics
+* [x] Chapter 4: Arrays and Tuples
+* [x] Chapter 5: Functions
+* [x] Chapter 6: Objects
 
 ### 🔥 Intermediate Concepts
 
-* [X] Chapter 7: Interfaces
-* [X] Chapter 8: Type Aliases
-* [X] Chapter 9: Union and Intersection Types
+* [x] Chapter 7: Interfaces
+* [x] Chapter 8: Type Aliases
+* [x] Chapter 9: Union and Intersection Types
 * [x] Chapter 10: Classes and OOP
 * [x] Chapter 11: Generics
 * [x] Chapter 12: Utility Types
@@ -34,13 +34,31 @@ I am learning TypeScript step by step, creating examples, practicing concepts, a
 ### ⚡ Advanced Concepts
 
 * [x] Chapter 13: Type Guards and Type Narrowing
-* [ ] Chapter 14: Modules
-* [ ] Chapter 15: TypeScript with DOM
-* [ ] Chapter 16: TypeScript with React
-* [ ] Chapter 17: TypeScript with Node.js
+* [x] Chapter 14: Modules
+* [ ] Chapter 15: Advanced Types
+* [ ] Chapter 16: Error Handling
+* [ ] Chapter 17: Enums
+* [ ] Chapter 18: Type Assertions and `satisfies`
+* [ ] Chapter 19: `null`, `undefined` and Strict Type Checking
+* [ ] Chapter 20: Advanced Functions
+* [ ] Chapter 21: Advanced Classes
+* [ ] Chapter 22: Advanced Generics
+* [ ] Chapter 23: Declaration Files and `@types`
+* [ ] Chapter 24: `tsconfig.json` in Depth
+* [ ] Chapter 25: NPM and TypeScript Packages
 
-### 🛠️ Projects
+### 🌐 Async and Web Development
 
-* [ ] Project 1: Beginner TypeScript Project
-* [ ] Project 2: Intermediate TypeScript Project
-* [ ] Project 3: Advanced TypeScript Project
+* [ ] Chapter 26: Async TypeScript and Promises
+* [ ] Chapter 27: DOM and Browser TypeScript
+* [ ] Chapter 28: TypeScript with APIs and Fetch
+* [ ] Chapter 29: Node.js with TypeScript
+* [ ] Chapter 30: React with TypeScript
+
+### 🚀 Professional TypeScript
+
+* [ ] Chapter 31: Professional Project Structure
+* [ ] Chapter 32: Testing TypeScript
+* [ ] Chapter 33: Advanced Real-World TypeScript Patterns
+* [ ] Chapter 34: TypeScript Best Practices
+* [ ] Chapter 35: Final TypeScript Project
