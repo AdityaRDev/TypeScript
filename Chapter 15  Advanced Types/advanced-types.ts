@@ -103,13 +103,7 @@ eventName = "product-deleted";
 // 7. Generic Function with keyof
 // ========================================
 
-function getProperty<
-    T,
-    K extends keyof T
->(
-    object: T,
-    key: K
-): T[K] {
+function getProperty<T,K extends keyof T>(object: T,key: K): T[K] {
     return object[key];
 }
 
@@ -119,34 +113,23 @@ function getProperty<
 // ========================================
 
 type OptionalStrings<T> = {
-    [K in keyof T]:
-        T[K] extends string
-            ? T[K] | undefined
-            : T[K];
+    [K in keyof T]:T[K] extends string? T[K] | undefined: T[K];
 };
 
-type ProductWithOptionalStrings =
-    OptionalStrings<Product>;
+type ProductWithOptionalStrings = OptionalStrings<Product>;
 
 
 // ========================================
 // 9. infer
 // ========================================
 
-type ReturnTypeOf<T> =
-    T extends (...args: any[]) => infer R
-        ? R
-        : never;
+type ReturnTypeOf<T> =T extends (...args: any[]) => infer R? R: never;
 
-function calculatePrice(
-    price: number,
-    quantity: number
-): number {
+function calculatePrice(price: number, quantity: number): number {
     return price * quantity;
 }
 
-type PriceResult =
-    ReturnTypeOf<typeof calculatePrice>;
+type PriceResult =ReturnTypeOf<typeof calculatePrice>;
 
 
 // ========================================
@@ -171,19 +154,13 @@ console.log("\nSaved Product:");
 console.log(savedProduct);
 
 console.log("\nGet Product Name:");
-console.log(
-    getProperty(product, "name")
-);
+console.log(getProperty(product, "name"));
 
 console.log("\nGet Product Price:");
-console.log(
-    getProperty(product, "price")
-);
+console.log(getProperty(product, "price"));
 
 console.log("\nCalculated Price:");
-console.log(
-    calculatePrice(50000, 2)
-);
+console.log(calculatePrice(50000, 2));
 
 
 // === Advanced Types ===                                                                                         
