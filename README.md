@@ -35,8 +35,8 @@ I am learning TypeScript step by step, creating examples, practicing concepts, a
 
 * [x] Chapter 13: Type Guards and Type Narrowing
 * [x] Chapter 14: Modules
-* [ ] Chapter 15: Advanced Types
-* [ ] Chapter 16: Error Handling
+* [x] Chapter 15: Advanced Types
+* [x] Chapter 16: Error Handling
 * [ ] Chapter 17: Enums
 * [ ] Chapter 18: Type Assertions and `satisfies`
 * [ ] Chapter 19: `null`, `undefined` and Strict Type Checking
