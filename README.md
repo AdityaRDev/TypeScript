@@ -37,9 +37,9 @@ I am learning TypeScript step by step, creating examples, practicing concepts, a
 * [x] Chapter 14: Modules
 * [x] Chapter 15: Advanced Types
 * [x] Chapter 16: Error Handling
-* [ ] Chapter 17: Enums
-* [ ] Chapter 18: Type Assertions and `satisfies`
-* [ ] Chapter 19: `null`, `undefined` and Strict Type Checking
+* [x] Chapter 17: Enums
+* [x] Chapter 18: Type Assertions and `satisfies`
+* [x] Chapter 19: `null`, `undefined` and Strict Type Checking
 * [ ] Chapter 20: Advanced Functions
 * [ ] Chapter 21: Advanced Classes
 * [ ] Chapter 22: Advanced Generics
