@@ -1,0 +1,15 @@
+{
+    "compilerOptions":{
+        "target": "es2025",
+        "module": "esnext",
+        "rootDir": ".",
+        "outDir":"dist",
+        "strict": true,
+        "noImplicitAny":true,
+        "strictNullChecks": true
+    },
+    "include":[
+        "advanced-functions.ts",
+        "taskSolution.ts"
+    ]
+}
