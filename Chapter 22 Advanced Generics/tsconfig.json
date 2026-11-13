@@ -1,0 +1,13 @@
+{
+    "compilerOptions":{
+        "module": "esnext",
+        "target": "es2025",
+        "rootDir": ".",
+        "outDir":"dist",
+        "strict": true,
+        "noImplicitAny":true,
+        "strictNullChecks": true,
+        "noUnusedLocals": true
+    },
+    "include":["advanced-generics.ts"]
+}
