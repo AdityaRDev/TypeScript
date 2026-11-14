@@ -338,13 +338,3 @@ The declaration file provides type checking, while the JavaScript file provides 
 6. Create a module declaration for a fictional library.
 7. Create a JavaScript utility file and a matching `.d.ts` file.
 8. Import the JavaScript utility into TypeScript and test its type checking.
-
-## 16. Chapter Summary
-
-In this chapter, we learned about declaration files, the `.d.ts` extension, the `declare` keyword, global declarations, module declarations, `@types` packages, and DefinitelyTyped.
-
-Declaration files help TypeScript work with existing JavaScript libraries while maintaining type safety.
-
-**Chapter 23 Status: Completed**
-
-**Next Chapter: Chapter 24 – tsconfig.json in Depth**
