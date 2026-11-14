@@ -1,0 +1,11 @@
+{
+  "name": "chapter-23-declaration-files",
+  "version": "1.0.0",
+  "description": "TypeScript provides static type checking, but JavaScript libraries do not always contain TypeScript type information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "module"
+}
