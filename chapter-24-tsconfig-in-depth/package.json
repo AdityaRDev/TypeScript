@@ -1,0 +1,11 @@
+{
+  "name": "chapter-24-tsconfig-in-depth",
+  "version": "1.0.0",
+  "description": "`tsconfig.json` is a configuration file used by the TypeScript compiler.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "commonjs"
+}
