@@ -40,12 +40,12 @@ I am learning TypeScript step by step, creating examples, practicing concepts, a
 * [x] Chapter 17: Enums
 * [x] Chapter 18: Type Assertions and `satisfies`
 * [x] Chapter 19: `null`, `undefined` and Strict Type Checking
-* [ ] Chapter 20: Advanced Functions
-* [ ] Chapter 21: Advanced Classes
-* [ ] Chapter 22: Advanced Generics
-* [ ] Chapter 23: Declaration Files and `@types`
-* [ ] Chapter 24: `tsconfig.json` in Depth
-* [ ] Chapter 25: NPM and TypeScript Packages
+* [x] Chapter 20: Advanced Functions
+* [x] Chapter 21: Advanced Classes
+* [x] Chapter 22: Advanced Generics
+* [x] Chapter 23: Declaration Files and `@types`
+* [x] Chapter 24: `tsconfig.json` in Depth
+* [x] Chapter 25: NPM and TypeScript Packages
 
 ### 🌐 Async and Web Development
 
